@@ -29,7 +29,7 @@ class Matrix:
 
     def __add__(self, other):
         if not self.__eq__(other):
-            return TypeError
+            raise TypeError
 
         return Matrix([[self.values[i][j] + other.values[i][j]  
                 for j in range (len(self.values[i]))] 
