@@ -8,25 +8,25 @@ try:
     
     try:
         from tasks.task1 import Task as task1
-        # tasks.append(task1()())
+        tasks.append(task1()())
     except ImportError:
         pass
 
     try:
         from tasks.task2 import Task as task2
-        # tasks.append(task2()())
+        tasks.append(task2()())
     except ImportError:
         pass
 
     try:
         from tasks.task3 import Task as task3
-        # tasks.append(task3()())
+        tasks.append(task3()())
     except ImportError:
         pass
 
     try:
         from tasks.task4 import Task as task4
-        # tasks.append(task4()())
+        tasks.append(task4()())
     except ImportError:
         pass
 
